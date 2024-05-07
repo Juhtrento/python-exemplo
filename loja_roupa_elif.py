@@ -1,0 +1,10 @@
+valor_unit = 12.5
+quant = int(input('Digite a quantidade: '))
+valor_total = valor_unit * quant
+if quant <= 5:
+    valor_total = valor_total * 0.97
+elif quant <= 10:
+    valor_total = valor_total * 0.95
+else:
+    valor_total = valor_total * 0.93
+print(f"Valor total R$ {valor_total}")
