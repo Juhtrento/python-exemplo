@@ -10,6 +10,6 @@ else:
     else:
         casa_propria = int(input('Possui casa própria?:'))
         if casa_propria == 0:
-            print('Não poderealizar empréstimo')
+            print('Não pode realizar empréstimo')
         else:
             print('Conceder empréstimo')
